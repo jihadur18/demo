@@ -1,0 +1,170 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery</title>
+	<!--slider of Programm-->
+	<script>  
+function time(){
+    var date=new Date();
+    var hours=date.getHours();
+    var min=date.getMinutes();
+    var sec=date.getSeconds();
+    if(hours=="12"){var hr=12;
+    }else if(hours=="24"){
+        var hr=0;
+    }else{
+        var hr=hours%12;
+    } 
+    if(hr<10){hr="0"+hr;}
+    if(min<10){min="0"+min;}
+    if(sec<10){sec="0"+sec;}
+    var ampm=hours<12?" AM":" PM";
+    var timed=hr+":"+min+":"+sec+""+ampm;
+    document.getElementById('clock').innerText=timed;
+}
+setInterval(time, 1000);
+</script>
+		<link rel="stylesheet" href="cole.css"
+		
+        
+  
+</head>
+<body>
+    <!--Header part -->
+    <div class="headersection template clear">
+        <!--logo section-->
+<div class="logo">
+    <a href="#"><img src="img/logop.png" alt="logo"></a>
+    <h2>Our website title</h2>
+    <p>Our website description</p>
+</div>
+<div class="container  clear">
+<div class="clock">
+    <h1 id="clock">01:01:01PM</h1>
+</div>
+</div>
+    <!--social icon section-->
+<div class="social">
+    <a href="https://www.facebook.com/"><img src="img/facebook1.png" alt="facebook1"></a>
+    <a href="https://twitter.com/i/flow/login"><img src="img/twitter1.png" alt="twitter1"></a>
+    <a href="https://www.linkedin.com/login/"><img src="img/linkedin1.png" alt="linkedin1"></a>
+    <a href="https://www.instagram.com/accounts/login/"><img src="img/instagram.png" alt="instagram"></a>
+    <a href="https://www.youtube.com/"><img src="img/youtube1.png" alt="youtube1"></a>
+</div>
+
+</div>
+
+    <!--Navigation part-->
+<div class="nav template clear">
+<ul>
+   <li><a  href="home.html">Home</a></li>
+    <li><a  href="about.html">About</a></li>
+    <li><a  href="#">privacy</a></li>
+    <li><a id="active" href="contact.html">Contact</a></li>
+</ul>
+</div>
+<!--slider section-->
+
+
+
+
+
+
+
+
+
+<!--- Main Content part-->
+<div class="content template clear">   
+
+<div class="maincontent clear">
+    <!--same post 1 -->
+    <div class="about">
+	<h2>Contact me</h2> 
+	<table>
+	<tr>
+	<td>Your first name:</td>
+	<td><input type="text" name="last name" placeholder="Enter your first name"></td>
+	</tr>
+	<tr>
+	<td>Your last name:</td>
+	<td><input type="text" name="last name" placeholder="Enter your last name"></td>
+	</tr>
+	
+	
+	<tr>
+	<td>Your maill address:</td>
+	<td><input type="emaill" name="emaill" placeholder="Enter your email"></td>
+	</tr>
+	<tr>
+	<td>Your address:</td>
+	<td><textarea></textarea></td>
+	</tr>
+	<tr>
+	<td></td>
+	<td><input type="submit" name="submit" value="submit"></td>
+	
+	</tr>
+	
+	</table>
+	
+	
+	</div> 
+	
+	<!--google map start -->
+	<div class="map" >
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.691540785077!2d89.32306941472339!3d23.54359428469171!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39fefb3428886637%3A0x7aec7fe82dfda3d7!2z4Ka24KeN4Kaw4KeA4Kaw4Ka-4Kau4Kaq4KeB4KawIOCmuOCnjeCmleCngeCmsiDgpq7gpr7gpqA!5e0!3m2!1sen!2sbd!4v1650056675090!5m2!1sen!2sbd" width="620" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+	<!--google map end-->
+	
+	</div>
+	
+	
+	
+	
+</div>
+
+
+
+<!--Main Sidebar  -->
+<div class="asidebar clear">
+    <!--Sidebar 1 -->
+<div class="samesidebar clear">
+   <h2>Latest article</h2>
+   <ul>
+		<li><a href="#">Post title one will be go here.</a></li>
+		<li><a href="#">Post title Two will be go here.</a></li>
+		<li><a href="#">Post title Three will be go here.</a></li>
+		<li><a href="#">Post title Four will be go here.</a></li>
+		
+</ul>
+    
+</div>
+ <!--Sidebar 2 -->
+<div class="samesidebar clear">
+   <h2>Latest article</h2>
+   <ul>
+		<li><a href="#">Post title one will be go here.</a></li>
+		
+		
+</ul>
+    
+</div>
+
+</div>
+
+</div>
+<div class="footersection template clear">
+    <div class="footermenu clear">
+	<ul>
+   <li><a href="home.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="#">privacy</a></li>
+    <li><a href="contact.html">Contact</a></li>
+</ul>
+	</div>
+	<p>&copy; created by Jihadur Rahman</p>
+</div>
+ 
+</body>
+</html>

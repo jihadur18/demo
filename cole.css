@@ -1,0 +1,232 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
+
+*{margin:0; padding: 0; outline: 0;}
+body{font-family: 'Source Sans Pro', sans-serif; font-size: 14px; line-height: 18px; color:#000; background:url(img/max1.jpg)repeat fixed 0 0}
+.template{width: 960px; margin:0 auto;}
+.clear{overflow: hidden;}
+
+input[type="text"], input[type="emaill"]  {
+    width: 300px;
+    margin-bottom: 5px;
+    padding: 5px;
+    border: 1px solid #2c7a36;
+}
+input[type="submit"] {
+    background: #b7801c;
+    border: 1px solid #28a939;
+    padding: 2px 10px;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+}
+input[type="button"] {
+    padding: 4px;
+    color: #fff;
+    background: #ddd;
+    font-size: 20px;
+}
+input[type="submit"]:hover{background:#000; color: #fff;}
+textarea {
+    width: 300px;
+    height: 170px;
+    padding: 5px;
+    margin-bottom: 10px;
+	border: 1px solid #28a939;
+}
+.map {
+    margin-top: 20px;
+}
+.clock {
+    font-size: 20px;
+    padding: 11px;
+    margin-top: 1px;
+    float: right;
+}
+
+.headersection {
+    
+    background-color: #226852;
+    color: #fff;
+}
+
+.logo {
+    width: 500px;
+    float: left;
+}
+.logo img {
+    float: left;
+    padding: 5px;
+    height: 150px;
+    margin-right: 5px;
+}
+.logo h2 {
+    margin-top: 37px;
+    font-size: 41px;
+    margin-bottom: 12px;
+    text-shadow: 0px 2px 0px #666;
+}
+.logo p {
+    font-size: 16px;
+    margin-top: 18px;
+}
+
+
+
+.social {
+    width: 331px;
+    float: right;
+    padding-top: 19px;
+}
+.social img {
+    width: 53px;
+    padding: 5px;
+}
+
+
+
+
+
+.nav {
+    background-color: #217030;
+}
+.nav ul{margin: 0; padding: 0; list-style: none;}
+.nav ul li{display: block; float: left;}
+.nav ul li a {
+   display: block;
+   background: #E90;
+   text-decoration: none;
+   border: 2px solid #F90;
+   padding: 5px 21px;
+   margin: 1px;
+   color: #fff;
+   font-size: 20px;
+   font-weight: bold;
+}
+.nav ul li a:hover{background-color: #000; color: #fff;}
+#active{background-color: green; color: #fff;}
+.slidersection {
+    margin-bottom: 0px;
+    box-shadow: 0 8px 10px -2px  #555;
+}
+
+.content{}
+.maincontent {
+    width: 662px;
+    background-color: #DADAD9;
+    float: left;
+    padding: 5px;
+    margin: 0px;
+    margin-left: 0;
+    border: 1px solid #2C7A36;
+    margin-bottom: 0px;
+}
+.samepost{}
+.samepost h2, .about h2 {
+    border-bottom: 2px solid #cfcac0;
+    color: #ac7511;
+    font-size: 24px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.samepost img {
+   width: 200px;
+   margin-right: 11px;
+   float: left;
+}
+.samepost p {
+   text-align: justify;
+   line-height: 20px;
+}
+.read {
+   float: right;
+   margin-top: 10px;
+}
+.read a {
+   text-decoration: none;
+   display: block;
+   background: #000;
+   padding: 5px 5px;
+   color: #fff;
+   font-size: 13px;
+   border-radius: 11px;
+}
+.read a:hover{color:#fff; background-color: #226852;}
+.about{}
+.about h2{}
+.about img {
+    float: left;
+    width: 170px;
+	height:190px;
+    margin-right: 10px;
+    background: #fff none repeat scroll 0 0 ;
+    padding: 5px;
+    border: 1px solid #b7801c;
+}
+.about p {
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+.asidebar {
+    width: 282px;
+    background-color: #B7B7B6;
+    float: right;
+    padding-top: 5px;
+    margin: 0px;
+    margin-right: 0px;
+    border: 2px solid #2C7A36;
+}
+.samesidebar {
+    margin-bottom: 10px;
+}
+.samesidebar h2 {
+   background: #549837;
+   color: #fff;
+   padding: 10px;
+   margin-bottom: 3px;
+   border-bottom: 3px solid #777;
+}
+.samesidebar a{text-decoration: none;}
+
+.samesidebar ul{margin:0; padding:0; list-style-type:none;}
+.samesidebar ul li {
+    font-size: 15px;
+    padding: 5px 8px;
+    border-bottom: 1px dashed #EDD;
+    padding-left: 0;
+}
+.samesidebar ul li:last-child{border-bottom: 0px dashed #EDD;}
+.samesidebar ul li a {
+    text-decoration: none;
+    color: #DE4;
+}
+.samesidebar ul li a:hover{color:green;}
+
+.populer{}
+.populer h2{}
+.populer h3{}
+.populer p {
+    
+}
+.populer img {
+    width: 100px;
+    float: left;
+    margin-right: 5px;
+}
+
+.footersection{height:90px; background-color: #555555;text-align:center;}
+.footermenu {
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.footermenu ul{padding:0; margin:0; list-style-type:none; text-align:center;}
+.footermenu ul li{display:inline-block;}
+.footermenu ul li a {
+    text-decoration: none;
+    color: #ECC;
+    font-size: 17px;
+    margin-right: 5px;
+}
+.footersection p{}
